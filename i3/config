@@ -94,7 +94,10 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+h split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+# bindsym $mod+v split v
+
+bindsym $mod+c exec wl-copy
+bindsym $mod+v exec wl-paste
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
